@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Form Builder</title>
+<link href="formbuilder.css" rel="stylesheet">
+<script src="formbuilder.js" defer></script>
+</head>
+<body>
+
+<h1>Form Builder</h1>
+
+<div id="panel">
+    <button class="tab"><h3 id="heading">Heading</h3></button>
+    <button class="tab"><h3 id="textEdit">Text Edit</h3></button>
+    <button class="tab"><h3 id="button">Button</h3></button>
+
+    <div id="form">
+        <label>Heading Title: </label><input id="headingBox" type="text">
+        <br>
+        <input type="checkbox" id="italic"><label>Italicized</label>
+        <br>
+        <button id="add">Add Heading</button>
+    </div>
+
+    <div id="form1">
+        <label>Text Field Title: </label><input id="inputTitle" type="text">
+        <br>
+        <label>Initial Value: </label><input id="initialVal" type="text">
+        <br>
+        <button id="addT">Add Text</button>
+    </div>
+
+    <div id="form2">
+        <label>Button Title: </label><input id="buttonT" type="text">
+        <button id="addB">Add Button</button>
+    </div>
+
+    <br>
+    <button id="clearAll">Clear All</button>
+</div>
+
+<div class="rightPanel" id="rightPanel">
+    <div id="example">
+        <h1 id="createdHead"></h1>
+        <div id="created"></div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>

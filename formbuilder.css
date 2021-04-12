@@ -1,0 +1,59 @@
+body {
+    display: grid;
+}
+#panel {
+    grid-column-start: 1;
+    width: 50%;
+}
+#rightPanel {
+    position: absolute;
+    left: calc(100% - 50%);
+}
+h3 {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 14pt;
+}
+.tab {
+    width: 100px;
+    height: 10%;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+#heading {
+    border: solid black 4px;
+    background-color: red;
+    padding: 5px;
+    padding-left: 3px;
+}
+#textEdit {
+    border: solid white 4px;
+    background-color: green;
+    width: 80px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#button {
+    border: solid white 4px;
+    background-color: blue;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 70px;
+    float: inline-end;
+}
+#form, #form1, #form2 {
+    border: solid black 2px;
+    width: 300px;
+    padding: 10px;
+}
+#form1 {
+    display: none;
+}
+#form2 {
+    display: none;
+}

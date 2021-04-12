@@ -1,0 +1,10 @@
+.titlebar {
+    font-weight: bold;
+    color: red;
+}
+img {
+    display: inline;
+}
+.entry first, .entry middle, .entry last {
+    border: 1px dashed crimson;
+}

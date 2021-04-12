@@ -1,0 +1,29 @@
+
+body {
+    font-family: sans-serif;
+}
+img {
+    display: block;
+    float: left;
+    width: 200px;
+    height: 400 px;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+.Stanford {
+    font-weight: bold;
+    color: red;
+}
+.wfg {
+    font-style: italic;
+}
+.cr {
+    font-style: italic;
+}
+a:hover {
+    color: blue;
+}
